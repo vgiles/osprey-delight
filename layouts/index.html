@@ -11,7 +11,7 @@
       {{ partial "call.html" . }}
       
       <!-- Form (Scholarly) -->
-      {{ partial "form_scholarly.html" }}
+      {{ partial "form_scholarly.html" . }}
       <!-- Gallery -->
       <!-- {{ if not (eq (len (where .Site.RegularPages "Section" "gallery")) 0) }}
         {{ partial "gallery.html" . }}
